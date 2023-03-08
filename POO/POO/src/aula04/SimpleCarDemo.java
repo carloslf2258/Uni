@@ -16,7 +16,7 @@ class Car {
 
     public void drive(int distance) {
         //Acumula distância percorrida
-        this.kms += distance;
+        kms += distance;
     }
 
     /*public String getMake(){
@@ -31,11 +31,9 @@ class Car {
     public int getKms(){
         return kms;
     }*/
-
-    
-    public String toString() {
+    /*public String toString() {
         return String.format("%s %s, %d, kms: %d", this.make, this.model, this.year, this.kms);
-    }
+    }*/
 
 }
 
@@ -45,24 +43,24 @@ public class SimpleCarDemo {
     
     static void listCars(Car[] cars) {
         System.out.println("\nCarros registados: ");
-        for (int i = 0; i < cars.length && cars[i] != null; i++) {
-            Car car = cars[i];
-            System.out.printf("%s, %d, kms: %d\n", car.make + " " + car.model, car.year, car.kms);
+        for (Car car : cars) {
+            System.out.println(car.make + " " + car.model + ", " + car.year + ", kms: " + car.kms);
         }
         System.out.println();
     }
 
+
     /* TENTATIVA DE listCars
-    static void listCars(Car[] cars) {
-        System.out.println("\nCarros registados: ");
         for (int i = 0; i < cars.length && cars[i] != null; i++) {
             Car car = cars[i];
             System.out.println(car.toString());
-        }
-        System.out.println();
-    } */
+        }*/
 
-
+        /* Outra tentativa falhada
+        for (int i = 0; i < cars.length && cars[i] != null; i++) {
+            Car car = cars[i];
+            System.out.printf("%s, %d, kms: %d\n", car.make + " " + car.model, car.year, car.kms);
+        }*/
 
 
     public static void main(String[] args) {
@@ -83,7 +81,7 @@ public class SimpleCarDemo {
             // Viagem ao carro j
             cars[j].drive(kms);
         }
-
+        System.out.println(cars.toString());
         listCars(cars);
 
         sc.close();
