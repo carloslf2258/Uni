@@ -108,8 +108,29 @@ public class CarDemo {
 
     static void registerTrips(Car[] cars, int numCars) {
         // TODO: pede dados das viagens ao utilizador e atualiza informação do carro
-        // registo de viagens termina quando o utilizador inserir uma linha vazia 
-        System.out.print("Registe uma viagem no formato \"carro:distância\": ");
+        // registo de viagens termina quando o utilizador inserir uma linha vazia
+        String input;
+        while (true) {
+            System.out.print("Registe uma viagem no formato \"carro:distância\": ");
+            input = sc.nextLine().trim();
+            if (input.isEmpty()) break;
+            String[] parts = input.split(":");
+            if (parts.length != 2) {
+                System.out.println("Dados mal formatados. Tente novamente.");
+            } else {
+                try {
+                    int car = Integer.parseInt(parts[0]);
+                    int distance = Integer.parseInt(parts[1]);
+                    if (car < 0 || car >= numCars || distance <= 0) {
+                        System.out.println("Dados mal formatados. Tente novamente.");
+                    } else {
+                        cars[car].drive(distance);
+                    }
+                } catch (NumberFormatException e) {
+                    System.out.println("Dados mal formatados. Tente novamente.");
+                }
+            }
+        }
     }
 
 
@@ -123,7 +144,9 @@ public class CarDemo {
 
         System.out.println("\nCarros registados: ");
         for (Car car : cars) {
+            if (car != null) {
             System.out.println(car.make + " " + car.model + ", " + car.year + ", kms: " + car.kms);
+            }
         }
         System.out.println();
     }
