@@ -1,5 +1,6 @@
 package aula04;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 class Car {
@@ -16,7 +17,7 @@ class Car {
     }
 
     public void drive(int distance) {
-        //TODO: acumular distância percorrida
+        //Acumular distância percorrida
         this.kms += distance;
     }
     public String toString() {
@@ -26,7 +27,6 @@ class Car {
 }
 
 public class CarDemo {
-
     static Scanner sc = new Scanner(System.in);
 
     //COMEÇAR
@@ -35,24 +35,40 @@ public class CarDemo {
         // verifica se os dados do carro estão no formato correto
         // marca é composta por uma única palavra, modelo é composto por uma ou mais palavras, 
         // ano é um número inteiro positivo composto por 4 algarismos, quilometragem é um número inteiro positivo
-        String make = data[0];
-        String model = data[1];
+        
+        if (data.length < 4){
+            return false;
+        }
+        
+        //Campos
+        //Função de juntar palavras e dentro tem:
+        //Array que faz uma cópia desde o elemento de indice 1 até o penúltimo(exclusive)
+        String model = String.join(" ", Arrays.copyOfRange(data, 1, data.length - 2));
         int year, kms;
     
-        if (data.length != 4) return false; // deve ter 4 elementos
-    
         try {
-            year = Integer.parseInt(data[2]);
-            kms = Integer.parseInt(data[3]);
+            year = Integer.parseInt(data[data.length - 2]);
+            kms = Integer.parseInt(data[data.length - 1]);
         } catch (NumberFormatException e) {
-            return false; // ano e kms devem ser inteiros
+            return false;
         }
-    
-        if (year < 0 || data[2].length() != 4) return false; // ano deve ser positivo e ter 4 dígitos
-    
-        if (kms < 0) return false; // kms deve ser positivo
-    
-        return make.matches("\\w+") && model.matches("\\w+( \\w+)*"); // verifica se make é uma palavra e model é uma ou mais palavras
+        if (model.split(" ").length < 1) {
+            return false;
+        }
+        
+        // Verificar se o ano é um número inteiro positivo composto por 4 algarismos
+        if (year < 1000 || year > 9999) {
+            return false;
+        }
+        
+        // Verificar se a quilometragem é um número inteiro positivo
+        if (kms < 0) {
+            return false;
+        }
+        
+        // Se chegou até aqui, os dados são válidos
+        return true;
+        
     }
 
 
@@ -62,22 +78,30 @@ public class CarDemo {
         // registo de carros termina quando o utilizador inserir uma linha vazia 
         // devolve número de carros registados
         int i = 0;
-        String input;
-    
+        String informacao, model;
+        int year, kms;
+        
         do {
             System.out.print("Insira dados do carro (marca modelo ano quilómetros): ");
-            input = sc.nextLine().trim();
+            informacao = sc.nextLine().trim();
     
-            if (!input.isEmpty()) {
-                String[] carData = input.split(" ");
+            if (!informacao.isEmpty()) {
+                String[] carData = informacao.split(" ");
+
+                //Estas variaveis vêm função acima "VerifyCarData", é como defini o modelo, ano e Kms
+                model = String.join(" ", Arrays.copyOfRange(carData, 1, carData.length - 2));
+                year = Integer.parseInt(carData[carData.length - 2]);
+                kms = Integer.parseInt(carData[carData.length - 1]);
+                //Usar funçao de verificar
                 if (verifyCarData(carData)) {
-                    cars[i] = new Car(carData[0], carData[1], Integer.parseInt(carData[2]), Integer.parseInt(carData[3]));
+                    //Variaveis definidas 4/5 linhas em cima
+                    cars[i] = new Car(carData[0], model, year, kms);
                     i++;
                 } else {
                     System.out.println("Dados mal formatados. Tente novamente.");
                 }
             }
-        } while (!input.isEmpty() && i < 10);
+        } while (!informacao.isEmpty() && i < 10);
     
         return i;
     }
