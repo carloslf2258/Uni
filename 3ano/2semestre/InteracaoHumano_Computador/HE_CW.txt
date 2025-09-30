@@ -1,0 +1,81 @@
+Heuristic Evaluation - Pobre TV
+1:Visibility of System Status
++O site dá feedback visual ao utilizador (ao iniciar um vídeo por exemplo).
+-Não há um indicador claro de buffering (pode demorar tempo e o utilizador não saber).
+
+2:Match Between the System and the Real World
++Ícones e categorias familiares facilitam a navegação.
+-Algumas traduções automáticas podem causar confusão.
+
+3:User Control and Freedom
++Permite pausar e avançar os vídeos facilmente.
+-Faltam botões que facilitem a ações mais comuns para o utilizador, 
+como ativar modo escuro, um botão para voltar ao topo, trocar de episodios, etc.
+
+4:Consistency and Standards
++O layout segue um padrão semelhante a plataformas de streaming populares.
+-Alguns botões não funcionam de forma consistente (ex.: "Full Screen").
+
+5:Error Prevention
++O site bloqueia pop-ups em algumas páginas.
+-Muitos links levam a páginas quebradas ou sites suspeitos.
+
+6:Recognition Rather than Recall
++As sugestões de vídeos recentes ajudam a continuar de onde parou.
+-Não há opção para baixar para ver depois.
+
+7:Flexibility and Efficiency of Use
++O site permite pesquisa direta pelo nome do filme ou série.
+-Falta suporte para atalhos de teclado no player.
+
+8:Aesthetic and Minimalist Design
++O layout é simples e direto.
+-Muitos anúncios poluir a interface.
+
+
+9:Help Users Recognize, Diagnose, and Recover from Errors
++Algumas mensagens de erro aparecem quando um vídeo não está disponível.
+-Os erros são genéricos e não oferecem instruções para solução.
+
+10:Help and Documentation
++Existe uma seção de "FAQ" com informações básicas.
+-Falta suporte ao usuário para problemas mais complexos.
+
+CW:
+-Pesquisar filme/serie
+-Identificar filme/serie
+-Selecionar o mesmo
+-Reproduzir
+
+Requisitos Funcionais
+
+Pesquisa de Conteúdo – O usuário deve poder buscar filmes e séries por nome, gênero ou ano.
+
+Reprodução de Vídeo – O site deve permitir que o usuário assista a filmes e séries diretamente no navegador.
+
+Listas de Favoritos – O usuário deve poder adicionar filmes e séries a uma lista de favoritos para assistir mais tarde.
+
+Navegação por Categorias – O site deve exibir categorias como "Mais Vistos", "Lançamentos" e "Recomendados".
+
+Modo Escuro – O usuário deve poder alternar entre modo claro e escuro para melhor experiência visual.
+
+Controle de Reprodução – Deve permitir pausar, avançar, retroceder e ajustar a qualidade do vídeo.
+
+Histórico de Assistidos – O sistema deve salvar o progresso dos vídeos assistidos.
+
+Sistema de Sugestões – Baseado nos filmes assistidos, o site deve recomendar novos conteúdos.
+
+Exibição de Detalhes – Cada filme/série deve ter uma página com sinopse, elenco e avaliações.
+
+Suporte a Diferentes Dispositivos – O site deve ser responsivo e funcionar bem em computadores, tablets e smartphones.
+
+Requisitos Não Funcionais
+
+Performance – O site deve carregar rapidamente e manter um tempo de resposta baixo.
+Segurança – Deve garantir que os dados do usuário (como listas de favoritos) sejam protegidos.
+Escalabilidade – O sistema deve suportar um grande número de acessos simultâneos sem queda de desempenho.
+Disponibilidade – O site deve estar disponível 24/7 com mínimo tempo de inatividade.
+Compatibilidade – Deve funcionar corretamente nos principais navegadores (Chrome, Firefox, Edge, etc.).
+Acessibilidade – O site deve seguir padrões para ser acessível a usuários com deficiência visual ou motora.
+Qualidade de Streaming – Deve oferecer diferentes opções de qualidade para vídeos (ex.: 480p, 720p, 1080p).
+Experiência do Usuário (UX) – Deve manter um design intuitivo e livre de elementos intrusivos, como excesso de anúncios.

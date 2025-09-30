@@ -1,0 +1,94 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/simulation/modelsim
+Eseqdetfsm
+Z1 w1684231868
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z4 8C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM.vhd
+Z5 FC:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM.vhd
+l0
+L4 1
+VeZBV8zL^mmP>E;9:KUbEZ3
+!s100 ;8cQJbX??2?09G:9]76`N3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1684235700
+!i10b 1
+Z8 !s108 1684235700.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM.vhd|
+Z10 !s107 C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+Z13 DEx4 work 9 seqdetfsm 0 22 eZBV8zL^mmP>E;9:KUbEZ3
+!i122 1
+l15
+L12 47
+V^g`75Tm1:@c>0ac0XdWP60
+!s100 g^H[7a6m[X94RK<kTAf2k3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eseqdetfsm_tb
+Z14 w1684235641
+R2
+R3
+!i122 2
+R0
+Z15 8C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM_Tb.vhd
+Z16 FC:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM_Tb.vhd
+l0
+L4 1
+VcZkF1GXezmU@c<i@HZ77I1
+!s100 @1f9oRQFb=DZ92>:BNW953
+R6
+32
+Z17 !s110 1684235702
+!i10b 1
+Z18 !s108 1684235702.000000
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM_Tb.vhd|
+!s107 C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM_Tb.vhd|
+!i113 1
+R11
+R12
+Astimulus
+R13
+R2
+R3
+DEx4 work 12 seqdetfsm_tb 0 22 cZkF1GXezmU@c<i@HZ77I1
+!i122 2
+l17
+L7 53
+VZ2JfY8h;PHmA1z`3V4`BE1
+!s100 gYfKK>4`TJV5Zz43BcbT11
+R6
+32
+R17
+!i10b 1
+R18
+R19
+Z20 !s107 C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM_Tb.vhd|
+!i113 1
+R11
+R12

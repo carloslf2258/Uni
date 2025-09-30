@@ -1,0 +1,27 @@
+2.1:
+nslookup
+
+
+www.ua.pt -> Address:  193.136.173.58
+
+ua.pt -> Addresses:  193.136.172.173
+          193.136.172.175
+          193.136.172.174
+
+www.tvi.iol.pt -> Address:  193.126.240.138
+
+www.sapo.pt -> Address:  213.13.146.142
+
+www.antena3.pt -> Address:  94.46.160.176
+
+2.2:
+nslookup
+
+193.136.173.58 -> Nombre:  lvs-ng.ua.pt
+
+193.137.55.13 -> Nombre:  www.up.pt
+
+157.240.212.35 -> Nombre:  edge-star-mini-shv-01-lis1.facebook.com
+
+31.13.66.174 -> Nombre:  instagram-p42-shv-01-iad3.fbcdn.net
+

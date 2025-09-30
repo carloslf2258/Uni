@@ -1,0 +1,25 @@
+**O Paradoxo da Distração Relacionada à Condução: Sistemas de Monitorização do Condutor Ativam Alertas Durante Manobras de Ultrapassagem**
+
+Escolhemos este artigo pq achamos interessante, pq é relevante para o mundo real, estamos a falar de segurança pública.
+Também pq explora o impacto dos sistemas de monitorização na segurança ao conduzir e pq salienta os desafios que têm estes sistemas para identificar comportamentos do condutor.
+
+Introduction
+Trata-se de um sistema de monitorização que mede a distração dos condutores. 
+O algoritmo chama-se Euro NCAP e considera dois tipos de distrações:
+distrações relacionadas com a condução (olhas espelhos) e distrações que não (infotainment).
+E dois critérios 3s a olhar fora do para-brisas ou 10s de varios olhares fora do parabrisas em 30s, para o artigo são consideradas distrações relacionadas com a condução e o segundo criterio dos 10s dentro do 30s.
+
+Neste artigo quando uma distração é detetada, é lançado uma alerta visual-auditiva. Assim, olhares para os espelhos durante a ultrapassagem podem ser erroneamente classificados como distração.
+
+Metodo:
+Approach taken: Como o objetivo era ver o impacto do DMS no comportamento dos condutores, foram feitos 3 grupos de forma aleatório.
+DMS instructed - os participantes foram informados sobre o funcionamento do sistema.
+
+A tarefa consistia em conduzir numa autoes. de 3 faixas, seguindo uma carrinha que passava de 100 a 60 km/h.
+Durante os primeiros 30s não conseguiam ultrapassar pela quantidade de carros que circulavam a 100 km/h na faixa do meio, mas depois, quando fosse seguro, ultrapassavam. A manobra era considerada bem sucedida quando o condutor mudava com segurança pra a faixa do meio.
+
+Methods applied:
+O Setup consistia num simulador de condução estacionário de 220º
+A visão traseira era por 3 monitores LEDs nos espelhos
+O rastreamento ocular era feito por 3 câmaras usando tecnologia SmartEye
+O algoritmo é o que já falamos, os 10s de olhares fora do parabrisas dentro de 30s ativavam o alerta, o qual durava 4s e este tempo reiniciava se o condutor olhasse 2s em frente

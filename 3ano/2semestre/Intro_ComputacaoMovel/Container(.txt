@@ -1,0 +1,46 @@
+Container(
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 16.0,
+                            vertical: 8.0,
+                          ),
+                          margin: EdgeInsets.only(bottom: 16.0),
+                          decoration: BoxDecoration(
+                            color:
+                                _isWalking
+                                    ? Colors.green[100]
+                                    : Colors.grey[100],
+                            borderRadius: BorderRadius.circular(25),
+                            border: Border.all(
+                              color:
+                                  _isWalking
+                                      ? Colors.green[300]!
+                                      : Colors.grey[300]!,
+                              width: 2,
+                            ),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Icon(
+                                _isWalking ? Icons.directions_walk : Icons.stop,
+                                color:
+                                    _isWalking
+                                        ? Colors.green
+                                        : Colors.grey[600],
+                                size: 30,
+                              ),
+                              SizedBox(width: 10),
+                              Text(
+                                _isWalking
+                                    ? 'Walking'
+                                    : 'Stopped',
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  color: _isWalking
+                                      ? Colors.green[800]
+                                      : Colors.grey[600],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),

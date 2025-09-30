@@ -1,0 +1,3 @@
+val -> final / "single assignment"
+var -> "write many"
+

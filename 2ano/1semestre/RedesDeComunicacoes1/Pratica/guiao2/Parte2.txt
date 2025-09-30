@@ -1,0 +1,6 @@
+PARTE 2
+
+1- Vimos se os componentes estavam ligados (PCs, switch e router) usando pings
+
+2-Escrevemos o IP no Web Browser para aceder à interface web do switch. Observamos que o switch
+ aprendeu os portos físicos dos nossos PCs (MAC adresses)

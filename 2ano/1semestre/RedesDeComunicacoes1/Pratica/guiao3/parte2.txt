@@ -1,0 +1,10 @@
+2-
+Nesta secção foi adicionado um novo EthernetSwitch, foram ligados através da interface F1/15
+e meteram-se os dois em modo trunk.
+Depois de já ter as ligações configuradas, fizemos pings entre os equipamentos.
+
+2.2-
+Observamos que os equipamentos na mesma VLAN conseguem-se comunicar através de diferentes Switchs,
+por exemplo o ping PC2 - PC3 -> o PC2 manda os packages para o SW1, este manda um
+arp request para tds os portos da vlan2, o SW2 recebe este arp e manda também para os portos
+da sua vlan2, chegando ao PC3.

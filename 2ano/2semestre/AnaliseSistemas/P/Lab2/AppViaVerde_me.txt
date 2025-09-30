@@ -1,0 +1,9 @@
+Localizar estacionamentos: Permite localizar os estacionamentos que estejam mais perto e que tenham Via Verde. 
+
+Escolher viatura: O usuário pode escolher a sua viatura pela matrícula. 
+
+Adicionar viatura: O usuário pode adicionar outra viatura indicando Nome da Viatura (Marca e Modelo) e matrícula. 
+
+Pagar o dia todo: O utilizador pode pagar estacionamento para o dia todo. 
+
+Pagar apenas o tempo que esteve estacionado: O utilizador pode terminar o estacionamento a qualquer momento, pagando apenas para o tempo mínimo necessário. 

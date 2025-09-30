@@ -1,0 +1,17 @@
+			Breadth		Depth			Depth		Depth-limited		Uniform c.	Greedy
+					(w/o loop prev)		(w. loop prev)
+=================================================================================================================================
+
+Completeness		Yes		No			Yes		No			Yes		Yes
+
+Time complexity		
+	best case	O(exp(n))	O(n)			O(n)		O(n)			O(exp(n))	O(n)
+	average case	O(exp(n))	Infinite		O(exp(n))	O(exp(n)) or fail	O(exp(n))	O(exp(n))
+	worst case	O(exp(n))	Infinite		O(exp(n))	O(exp(n)) or fail	O(exp(n))	O(exp(n)) ?
+
+Space complexity
+	best case	O(exp(n))	O(n)			O(n)		O(n)			same
+	average case	O(exp(n))	Infinite		O(exp(n))	O(exp(n)) or fail
+	worst case	O(exp(n))	Infinite		O(exp(n))	O(exp(n)) or fail
+
+Optimality		Yes (length)	No			No		No			Yes (cost)	No

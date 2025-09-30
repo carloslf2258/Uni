@@ -1,0 +1,33 @@
+Boa dia, somos o grupo 6, o nosso projeto é o Cluster de informações veiculares. AutoCore.
+
+----Resumo do que vamos falar
+Fazendo um resumo dos tópicos que vamos falar temos:
+
+O background e a motivação que nos levou a escolher este tema.
+
+Qual é o problema e os objetivos que definimos para o resolver.
+
+A nossa abordagem e arquitetura, i.e., a solução que propomos e a lógica que esteve por trás do seu desenvolvimento.
+
+Passamos então aos resultados, com uma breve demonstração do que conseguimos alcançar.
+
+E o trabalho a futuro: que melhorias poderiam ser feitas (e de que forma este projeto pode servir de base para desenvolvimentos posteriores).
+
+
+---- Background & Motivation
+-- Slide 3
+O futuro dos transportes inteligentes está diretamente ligado às Smart Cities.
+
+Aveiro é um exemplo real disso, com o projeto Aveiro Tech City Living Lab. Esta não só é uma das mais avançadas a nível europeu, mas permite testar soluções tecnológicas em contexto real.
+
+-- Slide 4
+O ATCLL tem suporte para múltiplas tecnologias sem fios. Isto garante comunicações resilientes e de baixa latência.
+
+Edge computing - permite processar dados em tempo real, mesmo no local.
+
+Densa rede de sensores.
+
+Com esta infraestrutura, é possível testar em tempo real soluções tecnológicas do tipo V2X.
+
+Ou seja, o ATCLL é um ambiente perfeito para desenvolver e validar soluções de mobilidade inteligente, como o nosso projeto.
+

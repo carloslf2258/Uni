@@ -1,0 +1,55 @@
+# Reading pref.tcl
+# do BinUDCntEnRst4_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte2/BinUDCntEnRst4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:44:59 on May 02,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte2/BinUDCntEnRst4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BinUDCntEnRst4
+# -- Compiling architecture Behavioral of BinUDCntEnRst4
+# End time: 10:44:59 on May 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte2/BinUDCntEnRst8Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:46:24 on May 02,2023
+# vcom -reportprogress 300 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte2/BinUDCntEnRst8Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity BinUDCntEnRst8Tb
+# -- Compiling architecture Stimulus of BinUDCntEnRst8Tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity BinUDCntEnRst4
+# End time: 10:46:24 on May 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.binudcntenrst8tb(stimulus)
+# vsim work.binudcntenrst8tb(stimulus) 
+# Start time: 10:46:29 on May 02,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.binudcntenrst8tb(stimulus)
+# Loading work.binudcntenrst4(behavioral)
+add wave -position end  sim:/binudcntenrst8tb/s_reset
+add wave -position end  sim:/binudcntenrst8tb/s_clk
+add wave -position end  sim:/binudcntenrst8tb/s_enable
+add wave -position end  sim:/binudcntenrst8tb/s_upDown_n
+add wave -position end  sim:/binudcntenrst8tb/s_cntOut
+run
+# End time: 10:52:57 on May 02,2023, Elapsed time: 0:06:28
+# Errors: 0, Warnings: 0

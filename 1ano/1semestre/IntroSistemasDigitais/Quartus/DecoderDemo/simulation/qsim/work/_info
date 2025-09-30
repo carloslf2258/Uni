@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/ISD/Quartus/DecoderDemo/simulation/qsim
+vDecoderDemo
+Z1 !s110 1668706118
+!i10b 1
+!s100 268Clj[K^Ojn:cGLnWJ;43
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISo<4[_CFM;^Ej=g140LSW0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1668706117
+8DecoderDemo.vo
+FDecoderDemo.vo
+!i122 6
+L0 32 188
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1668706118.000000
+!s107 DecoderDemo.vo|
+!s90 -work|work|DecoderDemo.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@decoder@demo
+vDecoderDemo_vlg_vec_tst
+R1
+!i10b 1
+!s100 IECBGdZZ`@48And_mjGTK2
+R2
+I?0F>hEEnfQ]lEMHP1dhCB0
+R3
+R0
+w1668706116
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 7
+L0 30 57
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
+n@decoder@demo_vlg_vec_tst

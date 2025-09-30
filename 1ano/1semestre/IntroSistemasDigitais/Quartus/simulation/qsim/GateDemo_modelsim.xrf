@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/ISD/Quartus/block1.bdf
+source_file = 1, C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/ISD/Quartus/GateDemo.bdf
+source_file = 1, C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/ISD/Quartus/db/GateDemo.cbx.xml
+design_name = GateDemo
+instance = comp, \pin_name3~output , pin_name3~output, GateDemo, 1
+instance = comp, \inPorto0~input , inPorto0~input, GateDemo, 1
+instance = comp, \inPorto1~input , inPorto1~input, GateDemo, 1

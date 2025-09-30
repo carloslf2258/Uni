@@ -1,0 +1,7 @@
+ def sec2hms(sec):
+    h = sec//3600
+    sec -= h*3600
+    m = sec//60
+    sec -= m*60
+    s = sec%60
+    return h, m, s

@@ -1,0 +1,23 @@
+Req. elicitation:
+
+US: São histórias, podem ser extensas e unificar várias user stories.
+
+Actors:
+SmartCity API -> SmartCity Manager
+
+User stories -> Use Cases -> Requirements
+
+Trocar MockUps para -In vision UI ou Secondary Screen
+
+Next Step:
+-Pegar na tabela de dos módulos e criar a lista de tarefas. 
+-Criar os issues. E começar a trabalhar nelas de forma ativa. 
+-As reuniões vão passar a ser ou deveriam passar a ser mais sobre falar sobre o estado do projeto.
+-Através dos issues os orientadores conseguiam ver o estado do proj. Melhorar esse aspeto.
+
+Bullet Points:
+-Considerar adicionar o modelo do domínio (VSS)
+-Colocar os issues no GitLab
+-Todos os subgrupos devem ser capazes de pôr um issue a dizer o que é para fazer e pelo menos 1 tarefa.
+-Re-ver, do trabalho já feito, pôr no M2, não descartar que já tenha sido feito.
+-Aprender e ver bem as funcionalidades dos issues no GitLab, vai dar jeito.

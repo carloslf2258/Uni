@@ -1,0 +1,289 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.1.0">
+  <diagram name="Página-1" id="TUtFDXTN8WkwMK8DOYdy">
+    <mxGraphModel dx="1052" dy="2082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DajMhg5BZU-49FZJIL6b-28" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="DajMhg5BZU-49FZJIL6b-15" target="DajMhg5BZU-49FZJIL6b-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="130" as="sourcePoint" />
+            <mxPoint x="260" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HsjpuiKJXddVdF4IFL4M-1" value="&lt;b&gt;&lt;u&gt;Number&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HsjpuiKJXddVdF4IFL4M-2" value="FLIGHT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="70" y="10" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HsjpuiKJXddVdF4IFL4M-5" value="Airline" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HsjpuiKJXddVdF4IFL4M-6" value="Weekdays" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HsjpuiKJXddVdF4IFL4M-7" value="Scheduled_arr_time" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HsjpuiKJXddVdF4IFL4M-9" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Flight_number&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HsjpuiKJXddVdF4IFL4M-10" value="FLIGHT_LEG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HsjpuiKJXddVdF4IFL4M-11" value="&lt;b&gt;&lt;u&gt;Leg_no&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HsjpuiKJXddVdF4IFL4M-18" value="LEG_INSTANCE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HsjpuiKJXddVdF4IFL4M-20" value="&lt;b&gt;&lt;u&gt;Date&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HsjpuiKJXddVdF4IFL4M-23" value="SEAT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="370" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HsjpuiKJXddVdF4IFL4M-27" value="No_of_avail_seats" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1" target="DajMhg5BZU-49FZJIL6b-30" source="PhZ-HdMtQnRmB6yhQRHg-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="90" as="sourcePoint" />
+            <mxPoint x="610" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="-60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-7" value="FARE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-110" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-8" value="&lt;b&gt;&lt;u&gt;Code&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="-80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-9" value="Amount" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="-80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-11" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Flight_number&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-12" value="&lt;b&gt;&lt;u&gt;Leg_no&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="280" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-13" value="&lt;b&gt;&lt;u&gt;Date&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-14" value="&lt;b&gt;&lt;u&gt;Seat_no&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-15" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Flight_number&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-16" value="&lt;b&gt;&lt;u&gt;Leg_no&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="400" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-17" value="Customer_name" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="400" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-18" value="Cphone" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-19" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Flight_number&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-22" value="Restrictions" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="DajMhg5BZU-49FZJIL6b-19" target="HsjpuiKJXddVdF4IFL4M-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="30" as="sourcePoint" />
+            <mxPoint x="225" y="-20" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="HsjpuiKJXddVdF4IFL4M-9" target="HsjpuiKJXddVdF4IFL4M-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="140" as="sourcePoint" />
+            <mxPoint x="270" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-25" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="DajMhg5BZU-49FZJIL6b-12" target="HsjpuiKJXddVdF4IFL4M-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="250" as="sourcePoint" />
+            <mxPoint x="270" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="DajMhg5BZU-49FZJIL6b-16" target="DajMhg5BZU-49FZJIL6b-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="390" as="sourcePoint" />
+            <mxPoint x="270" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-27" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="DajMhg5BZU-49FZJIL6b-11" target="HsjpuiKJXddVdF4IFL4M-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="170" as="sourcePoint" />
+            <mxPoint x="300" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-29" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="DajMhg5BZU-49FZJIL6b-13" target="HsjpuiKJXddVdF4IFL4M-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="190" as="sourcePoint" />
+            <mxPoint x="320" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-30" value="&lt;b&gt;&lt;u&gt;Airport_code&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="-80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-31" value="AIRPORT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="840" y="-110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-32" value="City" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="-80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-33" value="State" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="-80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-34" value="Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="-80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-35" value="&lt;b&gt;&lt;u&gt;Type_name&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-36" value="AIRPLANE_TYPE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="840" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-37" value="Company" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-38" value="Max_seats" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-40" value="&lt;b&gt;&lt;u&gt;Airplane_id&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-41" value="AIRPLANE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="840" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-42" value="Total_no_of_seats" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DajMhg5BZU-49FZJIL6b-43" value="Airplane_type_name" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-4" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Airport_code&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-5" value="CAN_LAND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="10" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-6" value="&lt;b&gt;&lt;u&gt;Type_name&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="40" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PhZ-HdMtQnRmB6yhQRHg-4" target="DajMhg5BZU-49FZJIL6b-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="20" as="sourcePoint" />
+            <mxPoint x="890" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PhZ-HdMtQnRmB6yhQRHg-6" target="DajMhg5BZU-49FZJIL6b-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="130" as="sourcePoint" />
+            <mxPoint x="910" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="965" y="120" />
+              <mxPoint x="880" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DajMhg5BZU-49FZJIL6b-43" target="DajMhg5BZU-49FZJIL6b-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="210" as="sourcePoint" />
+            <mxPoint x="930" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1090" y="240" />
+              <mxPoint x="880" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="30" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-11" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="30" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="270" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-13" value="Airplane_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PhZ-HdMtQnRmB6yhQRHg-13" target="DajMhg5BZU-49FZJIL6b-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="330" as="sourcePoint" />
+            <mxPoint x="630" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="360" />
+              <mxPoint x="880" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-15" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-16" value="Dep_time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-17" value="Airport_code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhZ-HdMtQnRmB6yhQRHg-17" target="DajMhg5BZU-49FZJIL6b-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="290" as="sourcePoint" />
+            <mxPoint x="800" y="-120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="-50" />
+              <mxPoint x="780" y="-50" />
+              <mxPoint x="810" y="-50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-19" value="Arr_time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-20" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="270" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="390" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-22" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-23" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="390" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-24" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="270" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-25" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-26" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-28" value="Airport_code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-27" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-90" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-29" value="Scheduled_dep_time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhZ-HdMtQnRmB6yhQRHg-32" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="150" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

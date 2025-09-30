@@ -1,0 +1,191 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula2/parte1/simulation/qsim
+Edec2_4en
+Z1 w1678184583
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
+!i122 4
+R0
+Z8 8Dec2_4EnDemo.vho
+Z9 FDec2_4EnDemo.vho
+l0
+Z10 L35 1
+VzQkidfSkdR[G1cO>DbHAB0
+!s100 zN7;2<mEF:TiUHz@=8Rj52
+Z11 OV;C;2020.1;71
+32
+Z12 !s110 1678184583
+!i10b 1
+Z13 !s108 1678184583.000000
+Z14 !s90 -work|work|Dec2_4EnDemo.vho|
+Z15 !s107 Dec2_4EnDemo.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 8 dec2_4en 0 22 zQkidfSkdR[G1cO>DbHAB0
+!i122 4
+l68
+L43 176
+Va<fG>]PHE^LYlhac8AckR3
+!s100 9V=00o4DVJBA>dMeWQQPZ0
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Edec2_4en_vhd_vec_tst
+Z18 w1678184582
+R5
+R6
+!i122 5
+R0
+Z19 8Dec2_4En_2.vwf.vht
+Z20 FDec2_4En_2.vwf.vht
+l0
+Z21 L32 1
+V=Fcz1LPO@dQF_NOg:L9622
+!s100 GGLn?lDEfWOgHJjmo`<i81
+R11
+32
+R12
+!i10b 1
+R13
+Z22 !s90 -work|work|Dec2_4En_2.vwf.vht|
+!s107 Dec2_4En_2.vwf.vht|
+!i113 1
+R16
+R17
+Adec2_4en_arch
+R5
+R6
+Z23 DEx4 work 20 dec2_4en_vhd_vec_tst 0 22 =Fcz1LPO@dQF_NOg:L9622
+!i122 5
+l47
+L34 96
+VOW_]7oRC_M8o;<ASVJd;`2
+!s100 18eZae5KM<WQEKJAl2cdj3
+R11
+32
+R12
+!i10b 1
+R13
+R22
+Z24 !s107 Dec2_4En_2.vwf.vht|
+!i113 1
+R16
+R17
+Edec2_4endemo
+Z25 w1678184025
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 0
+R0
+R8
+R9
+l0
+R10
+VP=Z0bA=?H9I__E8:XY1X=2
+!s100 21ohz6V0[mZPEZBd2?>;;2
+R11
+32
+Z26 !s110 1678184026
+!i10b 1
+Z27 !s108 1678184026.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 12 dec2_4endemo 0 22 P=Z0bA=?H9I__E8:XY1X=2
+!i122 0
+l66
+L42 174
+VjjMn31n0mX_c`@MA@@`HX0
+!s100 RQc]FVH3aBa7Y:b:W[39c0
+R11
+32
+R26
+!i10b 1
+R27
+R14
+R15
+!i113 1
+R16
+R17
+Edec2_4endemo_vhd_vec_tst
+Z28 w1678184024
+R5
+R6
+!i122 1
+R0
+Z29 8Dec2_4En_1.vwf.vht
+Z30 FDec2_4En_1.vwf.vht
+l0
+R21
+V:He@U9_J]AALaj:oW_fiG0
+!s100 Za:5[a]_S8?g[fUbcidZA0
+R11
+32
+R26
+!i10b 1
+R27
+Z31 !s90 -work|work|Dec2_4En_1.vwf.vht|
+Z32 !s107 Dec2_4En_1.vwf.vht|
+!i113 1
+R16
+R17
+Adec2_4endemo_arch
+R5
+R6
+DEx4 work 24 dec2_4endemo_vhd_vec_tst 0 22 :He@U9_J]AALaj:oW_fiG0
+!i122 1
+l45
+L34 19
+V8Q0chn=l3?OHWZ:LF]VYi0
+!s100 QG>i25bn>AlU_Z7^[A^:=2
+R11
+32
+R26
+!i10b 1
+R27
+R31
+R32
+!i113 1
+R16
+R17

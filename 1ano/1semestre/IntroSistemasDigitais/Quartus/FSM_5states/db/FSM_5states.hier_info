@@ -1,0 +1,9 @@
+|FSM_5states
+Y <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+Q[0] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+CLK => gdfx_temp0.IN0
+RESET_H => gdfx_temp0.IN1
+
+

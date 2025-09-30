@@ -1,0 +1,14 @@
+App Via Verde
+-----------------------
+Principais Funcionalidades
++ Indica a localização geográfica onde se encontra, num mapa
++ Posso procurar parque de estacionamento mais perto (ou longe)
++ No local onde existe parque que permite pagamento por Via Verde, a app mostra um botão a dizer "Iniciar"
++ Carregando no botão, permite escolher qual a viatura (por matricula) a estacionar ou adicionar outra viatura
++ A adição de nova viatura consiste em indicar Nome da Viatura (Marca e Modelo) e matricula
++ Na adição, permite especificar formatos de matrícula, diferentes da portuguesa
++ Tendo escolhido a viatura, pode comprar/iniciar o estacionamento ou cancelar
++ Há 2 situações distintas:
+--+ comprar quando o estacionamento é para todo o dia
+--+ iniciar quando o estacionamento é apenas para o tempo que vai estar estacionado
+--+ neste último, quando iniciado o estacionamento, é possível terminar o estacionamento a qualquer momento, pagando apenas o tempo que esteve estacionado.

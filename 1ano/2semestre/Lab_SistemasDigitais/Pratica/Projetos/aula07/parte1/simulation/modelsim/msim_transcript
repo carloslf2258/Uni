@@ -1,0 +1,94 @@
+# Reading pref.tcl
+# do Dec2_4En_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte1/Dec2_4En.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:58:21 on May 02,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte1/Dec2_4En.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Dec2_4En
+# -- Compiling architecture Behavioral of Dec2_4En
+# End time: 09:58:21 on May 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte1/Dec2_4En_Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:00:33 on May 02,2023
+# vcom -reportprogress 300 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte1/Dec2_4En_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Dec2_4En_Tb
+# -- Compiling architecture Stimulus of Dec2_4En_Tb
+# -- Loading entity Dec2_4En
+# End time: 10:00:33 on May 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte1/Dec2_4En_Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:03:40 on May 02,2023
+# vcom -reportprogress 300 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte1/Dec2_4En_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Dec2_4En_Tb
+# -- Compiling architecture Stimulus of Dec2_4En_Tb
+# -- Loading entity Dec2_4En
+# End time: 10:03:40 on May 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.dec2_4en_tb(stimulus)
+# vsim work.dec2_4en_tb(stimulus) 
+# Start time: 10:04:56 on May 02,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.dec2_4en_tb(stimulus)
+# Loading work.dec2_4en(behavioral)
+add wave sim:/dec2_4en_tb/*
+add wave  \
+sim:/dec2_4en_tb/s_enable \
+sim:/dec2_4en_tb/s_inputs \
+sim:/dec2_4en_tb/s_outputs
+add wave  \
+sim:/dec2_4en_tb/s_enable \
+sim:/dec2_4en_tb/s_inputs \
+sim:/dec2_4en_tb/s_outputs
+# Load canceled
+run
+run -all
+# Break key hit
+# Break in Process line__12 at C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte1/Dec2_4En.vhd line 12
+add wave  \
+sim:/dec2_4en_tb/uut/enable \
+sim:/dec2_4en_tb/uut/inputs \
+sim:/dec2_4en_tb/uut/inputs(1) \
+sim:/dec2_4en_tb/uut/inputs(0) \
+sim:/dec2_4en_tb/uut/outputs \
+sim:/dec2_4en_tb/uut/outputs(3) \
+sim:/dec2_4en_tb/uut/outputs(2) \
+sim:/dec2_4en_tb/uut/outputs(1) \
+sim:/dec2_4en_tb/uut/outputs(0)
+run -continue
+# Break key hit
+# Simulation stop requested.
+run
+add wave -position end  sim:/dec2_4en_tb/uut/enable
+add wave -position end  sim:/dec2_4en_tb/uut/inputs
+add wave -position end  sim:/dec2_4en_tb/uut/outputs
+# Break key hit
+restart
+run
+run
+run
+# End time: 10:20:39 on May 02,2023, Elapsed time: 0:15:43
+# Errors: 0, Warnings: 0

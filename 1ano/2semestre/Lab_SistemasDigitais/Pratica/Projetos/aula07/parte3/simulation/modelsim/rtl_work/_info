@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte3/simulation/modelsim
+Ealu16
+Z1 w1683023277
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 12
+R0
+Z5 8C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte3/ALU16.vhd
+Z6 FC:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte3/ALU16.vhd
+l0
+L6 1
+VWRTe7=oS^^12^4V7Zmz3n1
+!s100 5YckZm_635ObVR=G11BRk3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1683023544
+!i10b 1
+Z9 !s108 1683023544.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte3/ALU16.vhd|
+!s107 C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte3/ALU16.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+Z13 DEx4 work 5 alu16 0 22 WRTe7=oS^^12^4V7Zmz3n1
+!i122 12
+l19
+L15 36
+VcL9YoDPUn91C?Smid7MM<1
+!s100 Sn3Yzim@fU?cnkh^=hofa2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+Z14 !s107 C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte3/ALU16.vhd|
+!i113 1
+R11
+R12
+Ealu16_tb
+Z15 w1682982990
+R3
+R4
+!i122 10
+R0
+Z16 8C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte3/ALU16_Tb.vhd
+Z17 FC:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte3/ALU16_Tb.vhd
+l0
+L4 1
+VJ?SC6g<kQRUAo]eNISoTD0
+!s100 5JC]d<:9IfXOd6o[f3]8?3
+R7
+32
+Z18 !s110 1683023028
+!i10b 1
+Z19 !s108 1683023028.000000
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte3/ALU16_Tb.vhd|
+Z21 !s107 C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula07/parte3/ALU16_Tb.vhd|
+!i113 1
+R11
+R12
+Astimulus
+R2
+R13
+R3
+R4
+DEx4 work 8 alu16_tb 0 22 J?SC6g<kQRUAo]eNISoTD0
+!i122 10
+l18
+L7 49
+Vn4Dl@GUGNU]=:J^lhLR`d2
+!s100 N4IfXZCW>FP:KkXX2gILE2
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R11
+R12

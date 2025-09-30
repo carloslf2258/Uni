@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/ISD/Quartus/Proj_EqCmp/simulation/qsim
+vEqCmp4
+!s110 1667494518
+!i10b 1
+!s100 bP]U]a;6Y[cZP3Ck?eS^T2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ICHiaLd`@oIgN5>CHjZe9i1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1667494517
+8EqCmpDemo.vo
+FEqCmpDemo.vo
+!i122 6
+L0 32 168
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1667494518.000000
+!s107 EqCmpDemo.vo|
+!s90 -work|work|EqCmpDemo.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@eq@cmp4
+vEqCmp4_vlg_vec_tst
+!s110 1667494519
+!i10b 1
+!s100 aiQe7CX;jMUIF34LiWcnb1
+R1
+ITQ7lJ]b]XKNjKE1d1lOJL2
+R2
+R0
+w1667494515
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 7
+L0 30 264
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5
+R6
+n@eq@cmp4_vlg_vec_tst

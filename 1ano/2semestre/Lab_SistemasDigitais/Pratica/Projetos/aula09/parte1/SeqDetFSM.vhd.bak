@@ -1,0 +1,15 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity SeqDetFSM is
+	port(clkIn	: in  std_logic;
+		  clkOut	: out std_logic);
+end SeqDetFSM;
+
+ARCHITECTURE BEHAVIOR OF SeqDetFSM IS
+    TYPE type_fstate IS (A, B, C, D);
+    SIGNAL fstate : type_fstate;
+    SIGNAL reg_fstate : type_fstate;
+BEGIN
+    PROCESS (clock,reg_fstate)
+    BEGIN

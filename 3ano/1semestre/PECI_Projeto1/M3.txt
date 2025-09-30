@@ -1,0 +1,25 @@
+Boa tarde, somos o grupo 6, o nosso projeto é o Cluster de informações veiculares. AutoCore.
+
+----Resumo do que vamos falar
+Fazendo um resumo dos tópicos que vamos falar temos:
+
+Vamos começar por apresentar o background e a motivação que nos levou a escolher este tema.
+
+De seguida, explicamos qual é o problema que identificámos e os objetivos que definimos para o resolver.
+
+Depois, mostramos a nossa abordagem e arquitetura, i.e., a solução que propomos e a lógica que esteve por trás do seu desenvolvimento.
+
+Passamos então aos resultados, com uma breve demonstração prática do que conseguimos alcançar.
+
+Por fim, falamos do trabalho futuro: que melhorias poderiam ser feitas e de que forma este projeto pode servir de base para desenvolvimentos posteriores.
+
+----Introduction
+O nosso Produto Mínimo Viável é um cluster de informações do veículo funcional para Android Automotive, desenvolvido para acceder e exibir dados essenciais do veículo, informações que podem ser obtidos do CAN bus.
+
+Informações tais como velocidade, ..
+
+Tendo a base funcional, podemos expandir o projeto para integrar o veículo com a infraestrutura da Smart City de Aveiro.
+
+Isso permitiria que o veículo recebesse e exibisse informações úteis em tempo real, como dados sobre tráfego, pontos de recarga de veículos elétricos, e alertas ambientais.
+
+Além disso, poderíamos fornecer funcionalidades avançadas como rotas otimizadas com base nas condições da cidade ou sugestões inteligentes para o condutor.

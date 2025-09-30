@@ -1,0 +1,48 @@
+
+
+2024_HumanRobotInteraction_HRI.pdf - 730, 776, 796, -> 899, -> 934
+
+Automotive_UI_2024.pdf - 186, 217, -> 229 
+
+Resposta: Ou o primeiro ou o ultimo
+
+
+Doi1: 10.1145/3641308.3685049
+The Paradox of Driving-Related Distraction: Driver Monitoring Systems Trigger Warnings During Overtaking Maneuvers
+
+Doi2: 10.1145/3610977.3637475
+GARRY: The Gait Rehabilitation Robotic System
+
+
+
+
+Apresentação 1 - Dropbox:
+Slide 0: Titulo
+
+Slide 1: Por que escolhemos este artigo. Exemplo: Achamos interessante e porque é relevante. ""It has everything to do with our course.""
+
+Slide 2: Introduction and context.
+Field of research, challenges whta is the problem and why is this problem relevant.
+
+Slide 3: Methods. What kind os approach was taken by the authors. O que é que fizeram, se for possível dar detalhe.
+
+Slide 4: What methods were applied, tested?
+Fazer pontos/lista.
+How many people. What were asked.
+
+Slide 5: 
+Evaluation Methods: How was the results tested.
+
+Slide 6: Results. 
+Which results, practical use, future improvements.
+
+Slide 7: Overall Conclusions.
+
+Slide 8: Critical Analysis.
+What do we think about the topic. Most interesting points. Most negative points. Potential of the presented work for the field of HCI.
+
+Slide 9: Bibliografia
+
+
+Why this Paper?
+We selected this paper because it perfectly captures how well-intentioned safety technology can backfire when it fails to understand real human driving behavior in context.

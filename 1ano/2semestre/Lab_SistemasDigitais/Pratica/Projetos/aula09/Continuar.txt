@@ -1,0 +1,2 @@
+Começar a fazer SeqDetector.vhd da parte 1 para acabar.
+Fazer parte2 com TrafficLights

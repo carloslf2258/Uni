@@ -1,0 +1,17 @@
+$a0-$a3 ---> Passar parametros
+
+$v0 --->  Devolver valores
+
+$t0 - $t9 ---> Uso geral (temporal)
+||
+V
+Estes 3 podem ser alterados pelas sub-rotinas.
+
+
+$s0 - $s7 ---> temp.saved
+||
+V
+Não podem ser alterados pelas sub-rotinas na perspetiva do chamador.
+
+
+VER EX2 apartir do while2

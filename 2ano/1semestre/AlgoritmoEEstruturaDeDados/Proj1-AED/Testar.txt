@@ -1,0 +1,55 @@
+Para testar:
+make
+1- G() e da função ImageStats().
+./imageTool ./testepares/UA.pgm info
+Deve dar: Size = 1920x1080, Maxval = 255, Gray level range: [0, 255]
+
+2-  ImageNegative() e ImageThreshold() e ImageBrigthen()
+./imageTool testepares/UA.pgm neg save UA_neg.pgm
+python3 imageDiff.py UA_neg.pgm ./testepares/UA_neg.pgm
+
+./imageTool testepares/UA.pgm thr 130 save UA_thr.pgm
+python3 imageDiff.py UA_thr.pgm ./testepares/UA_thr.pgm
+
+./imageTool testepares/UA.pgm bri 0.33 save UA_bri.pgm
+python3 imageDiff.py UA_bri.pgm ./testepares/UA_bri.pgm
+
+3- ImageMirror() e ImageRotate()
+./imageTool testepares/UA.pgm mirror save UA_mirror.pgm
+python3 imageDiff.py UA_mirror.pgm ./testepares/UA_mirror.pgm
+
+4-  ImageValidRect() e ImageCrop().
+./imageTool testepares/UA.pgm crop 1600,1000,200,200
+Deve dar: “Invalid Operand”
+
+./imageTool testepares/UA.pgm crop 820,530,250,200 save UA_crop.pgm
+python3 imageDiff.py UA_crop.pgm ./testepares/UA_crop.pgm
+
+5- ImagePaste() e ImageBlend().
+./imageTool testepares/AED.pgm testepares/UA.pgm paste 550,200 save UA_paste.pgm
+python3 imageDiff.py UA_paste.pgm ./testepares/UA_paste.pgm
+
+./imageTool testepares/AED.pgm testepares/UA.pgm blend 550,200,0.5 save UA_blend.pgm
+python3 imageDiff.py UA_blend.pgm ./testepares/UA_blend.pgm
+
+6-  ImageMatchSubImage() e ImageLocateSubImage().
+./imageTool testepares/UA.pgm testepares/UA.pgm locate
+./imageTool testepares/UA_crop.pgm testepares/UA.pgm locate
+
+7-  ImageBlur() (versão "básica" e "melhorada").
+./imageTool testepares/UA.pgm tic blur 9,9 toc save UA_blur_9_9.pgm
+python3 imageDiff.py UA_blur_9_9.pgm ./testepares/UA_blur_9_9.pgm
+
+./imageTool testepares/UA.pgm tic blur 11,13 toc save UA_blur.pgm
+python3 imageDiff.py UA_blur.pgm ./testepares/UA_blur.pgm
+
+
+
+
+
+
+
+
+
+
+

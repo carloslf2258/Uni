@@ -1,0 +1,16 @@
+Agora passamos a algumas dificuldades que poderemos encontrar ao longo do nosso projeto: Destaco para já que a razão de mencionarmos isto é porque através desta análise conseguimos ter uma noção mais realista do que efetivamente deve ser feito.
+
+Primeiramente, temos as políticas de acesso, a qual pode dificultar o acesso a sectores específicos, como o barramento CAN, o qual é um protocolo de comunicação robusto, a sua complexidade ou a segurança e privacidade podem dificultar obter a informação.
+
+Embora seja um ponto para mais a frente, os periféricos também não seriam fáceis de trabalhar, uma vez que grande parte do nosso grupo não tem tido muito contato com isto.
+
+Tal como os periféricos, há outros pontos que são território novo, tal como o facto de não ser muito fácil desenvolver apps em Android Studio, nem no Android Automotive.
+
+Mitigações:
+Agora vou falar sobre a forma como vamos encarar essas dificuldades.
+Em relação às políticas de acesso, podemos usar um GPS, pois este também fornece informações importantes como a localização, velocidades e outras. Junto com este usar sensores de proximidade. Também aumentaria a resilência do sistema.
+
+Para os sensores …
+
+Em relação aos novos aspetos, seria tentar perceber o funcionamento ao máximo, ir evoluindo em relação a desenvolver funcionalidades em Android Studio e implementar junto com o Android Automotive.
+Para além disto alguns membros já tiveram contacto com alguns dos pontos, por exemplo o Isac com o Android Studio por isso compartilhar esse conhecimento

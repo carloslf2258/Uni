@@ -1,0 +1,5 @@
+Hacer parte3 (ver mejor como implementar N*T y los if/condiciones de enunciado necesarios)
+mientras tienes abierto el proyecto de la parte2, puedes aprovechar el codigo.
+
+También ver mejor como se hacen las ligaciones de cables en la parte 2, AccN
+update: parte4

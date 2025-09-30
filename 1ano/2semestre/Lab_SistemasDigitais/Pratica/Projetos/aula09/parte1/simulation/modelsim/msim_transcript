@@ -1,0 +1,76 @@
+# Reading pref.tcl
+# do SeqDetector_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:14:39 on May 16,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SeqDetFSM
+# -- Compiling architecture Behavioral of SeqDetFSM
+# End time: 12:14:39 on May 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:15:00 on May 16,2023
+# vcom -reportprogress 300 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SeqDetFSM
+# -- Compiling architecture Behavioral of SeqDetFSM
+# End time: 12:15:00 on May 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM_Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:15:02 on May 16,2023
+# vcom -reportprogress 300 -work work C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/1ano/2semestre/LSD/Pratica/Projetos/aula09/parte1/SeqDetFSM_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SeqDetFSM_Tb
+# -- Compiling architecture stimulus of SeqDetFSM_Tb
+# -- Loading entity SeqDetFSM
+# End time: 12:15:02 on May 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.seqdetfsm_tb(stimulus)
+# vsim work.seqdetfsm_tb(stimulus) 
+# Start time: 12:15:08 on May 16,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.seqdetfsm_tb(stimulus)
+# Loading work.seqdetfsm(behavioral)
+add wave -position end  sim:/seqdetfsm_tb/s_clk
+add wave -position end  sim:/seqdetfsm_tb/s_reset
+add wave -position end  sim:/seqdetfsm_tb/s_Xin
+add wave -position end  sim:/seqdetfsm_tb/s_Yout
+run
+add wave -position end  sim:/seqdetfsm_tb/uut/clk
+add wave -position end  sim:/seqdetfsm_tb/uut/reset
+add wave -position end  sim:/seqdetfsm_tb/uut/Xin
+add wave -position end  sim:/seqdetfsm_tb/uut/Yout
+add wave -position end  sim:/seqdetfsm_tb/uut/PS
+add wave -position end  sim:/seqdetfsm_tb/uut/NS
+add wave -position end  sim:/seqdetfsm_tb/uut/clk
+add wave -position end  sim:/seqdetfsm_tb/uut/reset
+add wave -position end  sim:/seqdetfsm_tb/uut/Xin
+add wave -position end  sim:/seqdetfsm_tb/uut/Yout
+add wave -position end  sim:/seqdetfsm_tb/uut/PS
+add wave -position end  sim:/seqdetfsm_tb/uut/NS
+run
+run
+# End time: 12:19:34 on May 16,2023, Elapsed time: 0:04:26
+# Errors: 0, Warnings: 0

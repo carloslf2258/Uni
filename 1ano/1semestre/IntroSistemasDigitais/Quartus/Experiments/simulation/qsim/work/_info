@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/ISD/Quartus/Experiments/simulation/qsim
+vteste1symbol
+Z1 !s110 1669309891
+!i10b 1
+!s100 O5Yee_9`dbzGd6V`[ozND2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJlJbBYNHWiOW<eg=TWF;F1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1669309890
+8teste1.vo
+Fteste1.vo
+!i122 0
+L0 32 232
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1669309891.000000
+!s107 teste1.vo|
+!s90 -work|work|teste1.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vteste1symbol_vlg_vec_tst
+R1
+!i10b 1
+!s100 =hm@eC:?cd7OFU;je7=<n1
+R2
+In6E]A4V4cnCnUNkWSYObo2
+R3
+R0
+w1669309889
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 183
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

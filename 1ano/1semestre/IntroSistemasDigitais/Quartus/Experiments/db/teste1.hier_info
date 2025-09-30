@@ -1,0 +1,87 @@
+|teste1symbol
+Y <= teste1mux8_1:inst.Y
+S[0] => teste1mux8_1:inst.S[0]
+S[1] => teste1mux8_1:inst.S[1]
+S[2] => teste1mux8_1:inst.S[2]
+X[0] => teste1mux8_1:inst.X[0]
+X[1] => teste1mux8_1:inst.X[1]
+X[2] => teste1mux8_1:inst.X[2]
+X[3] => teste1mux8_1:inst.X[3]
+X[4] => teste1mux8_1:inst.X[4]
+X[5] => teste1mux8_1:inst.X[5]
+X[6] => teste1mux8_1:inst.X[6]
+X[7] => teste1mux8_1:inst.X[7]
+
+
+|teste1symbol|teste1mux8_1:inst
+Y <= 74157:inst2.Y1
+X[0] => 74157:inst.A1
+X[1] => 74157:inst.B1
+X[2] => 74157:inst.A2
+X[3] => 74157:inst.B2
+X[4] => 74157:inst.A3
+X[5] => 74157:inst.B3
+X[6] => 74157:inst.A4
+X[7] => 74157:inst.B4
+S[0] => 74157:inst.SEL
+S[1] => 74157:inst1.SEL
+S[2] => 74157:inst2.SEL
+
+
+|teste1symbol|teste1mux8_1:inst|74157:inst2
+Y4 <= 25.DB_MAX_OUTPUT_PORT_TYPE
+A4 => 20.IN0
+GN => 12.IN0
+GN => 13.IN0
+SEL => 12.IN1
+SEL => 1.IN0
+B4 => 21.IN0
+Y3 <= 24.DB_MAX_OUTPUT_PORT_TYPE
+A3 => 18.IN0
+B3 => 19.IN0
+Y2 <= 23.DB_MAX_OUTPUT_PORT_TYPE
+A2 => 16.IN0
+B2 => 17.IN0
+Y1 <= 22.DB_MAX_OUTPUT_PORT_TYPE
+A1 => 14.IN0
+B1 => 15.IN0
+
+
+|teste1symbol|teste1mux8_1:inst|74157:inst1
+Y4 <= 25.DB_MAX_OUTPUT_PORT_TYPE
+A4 => 20.IN0
+GN => 12.IN0
+GN => 13.IN0
+SEL => 12.IN1
+SEL => 1.IN0
+B4 => 21.IN0
+Y3 <= 24.DB_MAX_OUTPUT_PORT_TYPE
+A3 => 18.IN0
+B3 => 19.IN0
+Y2 <= 23.DB_MAX_OUTPUT_PORT_TYPE
+A2 => 16.IN0
+B2 => 17.IN0
+Y1 <= 22.DB_MAX_OUTPUT_PORT_TYPE
+A1 => 14.IN0
+B1 => 15.IN0
+
+
+|teste1symbol|teste1mux8_1:inst|74157:inst
+Y4 <= 25.DB_MAX_OUTPUT_PORT_TYPE
+A4 => 20.IN0
+GN => 12.IN0
+GN => 13.IN0
+SEL => 12.IN1
+SEL => 1.IN0
+B4 => 21.IN0
+Y3 <= 24.DB_MAX_OUTPUT_PORT_TYPE
+A3 => 18.IN0
+B3 => 19.IN0
+Y2 <= 23.DB_MAX_OUTPUT_PORT_TYPE
+A2 => 16.IN0
+B2 => 17.IN0
+Y1 <= 22.DB_MAX_OUTPUT_PORT_TYPE
+A1 => 14.IN0
+B1 => 15.IN0
+
+

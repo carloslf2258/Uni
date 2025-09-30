@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/ISD/Quartus/x1_relogio_x0_contrario/x1_relogio_x0_contrario.bdf
+source_file = 1, C:/Users/CARLOS/OneDrive/Escritorio/CosasdeCarlos/Uni/ISD/Quartus/x1_relogio_x0_contrario/db/x1_relogio_x0_contrario.cbx.xml
+design_name = hard_block
+design_name = x1_relogio_x0_contrario
+instance = comp, \Q[1]~output\, Q[1]~output, x1_relogio_x0_contrario, 1
+instance = comp, \Q[0]~output\, Q[0]~output, x1_relogio_x0_contrario, 1
+instance = comp, \CK~input\, CK~input, x1_relogio_x0_contrario, 1
+instance = comp, \CK~inputclkctrl\, CK~inputclkctrl, x1_relogio_x0_contrario, 1
+instance = comp, \RESET_L~input\, RESET_L~input, x1_relogio_x0_contrario, 1
+instance = comp, \X~input\, X~input, x1_relogio_x0_contrario, 1

@@ -1,0 +1,219 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
+
+// DATE "11/17/2022 17:28:37"
+
+// 
+// Device: Altera EP4CE6E22C6 Package TQFP144
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module DecoderDemo (
+	D0,
+	input0,
+	input1,
+	pin_name3,
+	D1,
+	D2,
+	D3);
+output 	D0;
+input 	input0;
+input 	input1;
+input 	pin_name3;
+output 	D1;
+output 	D2;
+output 	D3;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \D0~output_o ;
+wire \D1~output_o ;
+wire \D2~output_o ;
+wire \D3~output_o ;
+wire \input1~input_o ;
+wire \input0~input_o ;
+wire \pin_name3~input_o ;
+wire \inst|inst~combout ;
+wire \inst|inst6~combout ;
+wire \inst|inst7~combout ;
+wire \inst|inst8~combout ;
+
+
+cycloneive_io_obuf \D0~output (
+	.i(\inst|inst~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\D0~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \D0~output .bus_hold = "false";
+defparam \D0~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_obuf \D1~output (
+	.i(\inst|inst6~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\D1~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \D1~output .bus_hold = "false";
+defparam \D1~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_obuf \D2~output (
+	.i(\inst|inst7~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\D2~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \D2~output .bus_hold = "false";
+defparam \D2~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_obuf \D3~output (
+	.i(\inst|inst8~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\D3~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \D3~output .bus_hold = "false";
+defparam \D3~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_ibuf \input1~input (
+	.i(input1),
+	.ibar(gnd),
+	.o(\input1~input_o ));
+// synopsys translate_off
+defparam \input1~input .bus_hold = "false";
+defparam \input1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \input0~input (
+	.i(input0),
+	.ibar(gnd),
+	.o(\input0~input_o ));
+// synopsys translate_off
+defparam \input0~input .bus_hold = "false";
+defparam \input0~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \pin_name3~input (
+	.i(pin_name3),
+	.ibar(gnd),
+	.o(\pin_name3~input_o ));
+// synopsys translate_off
+defparam \pin_name3~input .bus_hold = "false";
+defparam \pin_name3~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_lcell_comb \inst|inst (
+// Equation(s):
+// \inst|inst~combout  = (!\input1~input_o  & (!\input0~input_o  & !\pin_name3~input_o ))
+
+	.dataa(gnd),
+	.datab(\input1~input_o ),
+	.datac(\input0~input_o ),
+	.datad(\pin_name3~input_o ),
+	.cin(gnd),
+	.combout(\inst|inst~combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|inst .lut_mask = 16'h0003;
+defparam \inst|inst .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneive_lcell_comb \inst|inst6 (
+// Equation(s):
+// \inst|inst6~combout  = (\input0~input_o  & (!\input1~input_o  & !\pin_name3~input_o ))
+
+	.dataa(\input0~input_o ),
+	.datab(gnd),
+	.datac(\input1~input_o ),
+	.datad(\pin_name3~input_o ),
+	.cin(gnd),
+	.combout(\inst|inst6~combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|inst6 .lut_mask = 16'h000A;
+defparam \inst|inst6 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneive_lcell_comb \inst|inst7 (
+// Equation(s):
+// \inst|inst7~combout  = (\input1~input_o  & (!\input0~input_o  & !\pin_name3~input_o ))
+
+	.dataa(\input1~input_o ),
+	.datab(gnd),
+	.datac(\input0~input_o ),
+	.datad(\pin_name3~input_o ),
+	.cin(gnd),
+	.combout(\inst|inst7~combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|inst7 .lut_mask = 16'h000A;
+defparam \inst|inst7 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneive_lcell_comb \inst|inst8 (
+// Equation(s):
+// \inst|inst8~combout  = (\input1~input_o  & (\input0~input_o  & !\pin_name3~input_o ))
+
+	.dataa(\input1~input_o ),
+	.datab(\input0~input_o ),
+	.datac(gnd),
+	.datad(\pin_name3~input_o ),
+	.cin(gnd),
+	.combout(\inst|inst8~combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|inst8 .lut_mask = 16'h0088;
+defparam \inst|inst8 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign D0 = \D0~output_o ;
+
+assign D1 = \D1~output_o ;
+
+assign D2 = \D2~output_o ;
+
+assign D3 = \D3~output_o ;
+
+endmodule

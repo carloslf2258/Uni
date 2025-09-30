@@ -1,0 +1,100 @@
+|Dec4_16
+output0 <= Dec2_4:inst.D0
+input0 => Dec2_4:inst.input0
+input0 => Dec2_4:inst1.input0
+input0 => Dec2_4:inst2.input0
+input0 => Dec2_4:inst3.input0
+input1 => Dec2_4:inst.input1
+input1 => Dec2_4:inst1.input1
+input1 => Dec2_4:inst2.input1
+input1 => Dec2_4:inst3.input1
+input2 => Dec2_4:inst4.input0
+input3 => Dec2_4:inst4.input1
+E0 => Dec2_4:inst4.EN
+output1 <= Dec2_4:inst.D1
+output2 <= Dec2_4:inst.D2
+output3 <= Dec2_4:inst.D3
+output4 <= Dec2_4:inst1.D0
+output05 <= Dec2_4:inst1.D1
+output6 <= Dec2_4:inst1.D2
+output7 <= Dec2_4:inst1.D3
+output8 <= Dec2_4:inst2.D0
+output9 <= Dec2_4:inst2.D1
+output10 <= Dec2_4:inst2.D2
+output11 <= Dec2_4:inst2.D3
+output12 <= Dec2_4:inst3.D0
+output13 <= Dec2_4:inst3.D1
+output14 <= Dec2_4:inst3.D2
+output15 <= Dec2_4:inst3.D3
+
+
+|Dec4_16|Dec2_4:inst
+D0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+input0 => inst4.IN0
+input0 => inst6.IN0
+input0 => inst8.IN2
+EN => inst9.IN0
+input1 => inst5.IN0
+input1 => inst7.IN0
+input1 => inst8.IN0
+D1 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D3 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Dec4_16|Dec2_4:inst4
+D0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+input0 => inst4.IN0
+input0 => inst6.IN0
+input0 => inst8.IN2
+EN => inst9.IN0
+input1 => inst5.IN0
+input1 => inst7.IN0
+input1 => inst8.IN0
+D1 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D3 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Dec4_16|Dec2_4:inst1
+D0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+input0 => inst4.IN0
+input0 => inst6.IN0
+input0 => inst8.IN2
+EN => inst9.IN0
+input1 => inst5.IN0
+input1 => inst7.IN0
+input1 => inst8.IN0
+D1 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D3 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Dec4_16|Dec2_4:inst2
+D0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+input0 => inst4.IN0
+input0 => inst6.IN0
+input0 => inst8.IN2
+EN => inst9.IN0
+input1 => inst5.IN0
+input1 => inst7.IN0
+input1 => inst8.IN0
+D1 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D3 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Dec4_16|Dec2_4:inst3
+D0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+input0 => inst4.IN0
+input0 => inst6.IN0
+input0 => inst8.IN2
+EN => inst9.IN0
+input1 => inst5.IN0
+input1 => inst7.IN0
+input1 => inst8.IN0
+D1 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D3 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
